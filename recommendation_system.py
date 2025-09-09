@@ -3,7 +3,6 @@ from tkinter import ttk
 import pandas as pd
 import random
 
-# Load dataset
 df = pd.read_csv("realistic_recommendations.csv")
 
 class RecommendationApp:
